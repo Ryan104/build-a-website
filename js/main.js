@@ -23,4 +23,11 @@ navPortfolio.addEventListener("click", function(){
 });
 
 // Secret Hacker
+var hackerElements = document.getElementsByClassName('developer');
 
+Array.prototype.forEach.call(hackerElements, function(element){
+	element.addEventListener("mouseover", function(){
+		this.textContent = "HACKER";
+		this.setAttribute("style", "font-style: italic");
+	});
+});

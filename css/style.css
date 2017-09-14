@@ -85,6 +85,7 @@ li img {
 	border-left-width: 10px;
 	width: 60%;
 	margin: 0 auto;
+	filter: grayscale(1);
 }
 
 nav {
@@ -147,4 +148,27 @@ a:hover {
 
 #nav-about {
 	text-decoration: underline;
+}
+
+/* On small screens */
+@media (max-width: 850px) {
+	.about-image {
+		float: none;
+		display: block;
+		margin: 0 auto;
+		width: 50%;
+	}
+	.about-text {
+		clear: both;
+		float: none;
+		width: 100%;
+	}
+	li img {
+		width: 80%;
+	}
+	.portfolio-image {
+		float: none;
+		width: 70%;
+		margin: 0 auto;
+	}
 }
