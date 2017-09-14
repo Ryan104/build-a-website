@@ -79,6 +79,14 @@ li:before {
 	padding-right: 5px;
 }
 
+li img {
+	display: block;
+	border: 0px solid #33ff66; /* Green */
+	border-left-width: 10px;
+	width: 60%;
+	margin: 0 auto;
+}
+
 nav {
 	margin: 10px 0;
 
